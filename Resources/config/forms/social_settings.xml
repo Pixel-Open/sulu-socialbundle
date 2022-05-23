@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<form xmlns="http://schemas.sulu.io/template/template"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/form-1.0.xsd"
+>
+    <key>social_settings</key>
+    <properties>
+        <block name="socialMedias">
+            <types>
+                <type name="socialMedia">
+                    <properties>
+                        <property name="socialMediaName" type="single_select">
+                            <meta>
+                                <title>social_settings.socialMediaName</title>
+                            </meta>
+                            <params>
+                                <param name="default_value" value="facebook"/>
+                                <param name="values" type="collection">
+                                    <param name="facebook">
+                                        <meta>
+                                            <title>Facebook</title>
+                                        </meta>
+                                    </param>
+                                    <param name="twitter">
+                                        <meta>
+                                            <title>Twitter</title>
+                                        </meta>
+                                    </param>
+                                    <param name="instagram">
+                                        <meta>
+                                            <title>Instagram</title>
+                                        </meta>
+                                    </param>
+                                    <param name="linkedin">
+                                        <meta>
+                                            <title>LinkedIn</title>
+                                        </meta>
+                                    </param>
+                                    <param name="pinterest">
+                                        <meta>
+                                            <title>Pinterest</title>
+                                        </meta>
+                                    </param>
+                                    <param name="youtube">
+                                        <meta>
+                                            <title>Youtube</title>
+                                        </meta>
+                                    </param>
+                                    <param name="vimeo">
+                                        <meta>
+                                            <title>Vimeo</title>
+                                        </meta>
+                                    </param>
+                                </param>
+                            </params>
+                        </property>
+                        <property name="socialMediaUrl" type="url">
+                            <meta>
+                                <title>social_settings.socialMediaUrl</title>
+                            </meta>
+                            <params>
+                                <param name="schemes" type="collection">
+                                    <param name="https://"/>
+                                </param>
+                            </params>
+                        </property>
+                    </properties>
+                </type>
+            </types>
+        </block>
+    </properties>
+</form>
