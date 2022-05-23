@@ -1,0 +1,16 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Pixel\SocialBundle\Twig\SettingsExtension:
+    public: false
+    autowire: true
+    tags:
+      - {name: twig.extension}
+
+  Pixel\SocialBundle\Twig\ShareExtension:
+    public: false
+    autowire: true
+    tags:
+      - {name: twig.extension}
