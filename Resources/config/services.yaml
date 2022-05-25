@@ -14,3 +14,9 @@ services:
     autowire: true
     tags:
       - {name: twig.extension}
+
+  Pixel\SocialBundle\Twig\SVGExtension:
+    public: false
+    autowire: true
+    tags:
+      - {name: twig.extension}
