@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 (20/06/2022)
+
++ Ajout de tripadvisor
+
 ## 1.0.1 (25/05/2022)
 
 + Ajout d'une fonction twig pour afficher les icones des réseaux sociaux
