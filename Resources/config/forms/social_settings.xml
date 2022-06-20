@@ -51,6 +51,11 @@
                                             <title>Vimeo</title>
                                         </meta>
                                     </param>
+                                    <param name="tripadvisor">
+                                        <meta>
+                                            <title>Tripadvisor</title>
+                                        </meta>
+                                    </param>
                                 </param>
                             </params>
                         </property>
