@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.4.0 (07/12/2022)
+
++ Ajout de github
+- Retrait des svgs
+
 ## 1.0.2 (20/06/2022)
 
 + Ajout de tripadvisor
