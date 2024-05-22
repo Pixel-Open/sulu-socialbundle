@@ -32,14 +32,13 @@ class SocialExtension extends Extension implements PrependExtensionInterface
                     'resources' => [
                         'social_settings' => [
                             'routes' => [
-                                'detail' => 'social.get_social-settings'
-                            ]
-                        ]
-                    ]
+                                'detail' => 'social.get_social-settings',
+                            ],
+                        ],
+                    ],
                 ]
             );
         }
-
     }
 
     public function load(array $configs, ContainerBuilder $container): void
@@ -52,5 +51,4 @@ class SocialExtension extends Extension implements PrependExtensionInterface
         $loaderYaml->load('services.yaml');
         //$this->configurePersistence($config['objects'], $container);
     }
-
 }

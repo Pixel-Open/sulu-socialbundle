@@ -31,19 +31,17 @@ class Setting implements AuditableInterface
     /**
      * @ORM\Column(type="json", nullable=true)
      * @Serializer\Expose()
+     * @var array<mixed>
      */
     private ?array $socialMedias = null;
 
-    /**
-     * @return int|null
-     */
     public function getId(): ?int
     {
         return $this->id;
     }
 
     /**
-     * @return array|null
+     * @return array<mixed>|null
      */
     public function getSocialMedias(): ?array
     {
@@ -51,7 +49,7 @@ class Setting implements AuditableInterface
     }
 
     /**
-     * @param array|null $socialMedias
+     * @param array<mixed>|null $socialMedias
      */
     public function setSocialMedias(?array $socialMedias): void
     {

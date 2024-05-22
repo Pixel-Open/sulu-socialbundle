@@ -11,7 +11,9 @@ class SVGExtension extends AbstractExtension
     public function getFunctions(): array
     {
         return [
-            new TwigFunction("social_media_logo", [$this, "socialMediaLogo"], ["is_safe" => ["html"]])
+            new TwigFunction("social_media_logo", [$this, "socialMediaLogo"], [
+                "is_safe" => ["html"],
+            ]),
         ];
     }
 

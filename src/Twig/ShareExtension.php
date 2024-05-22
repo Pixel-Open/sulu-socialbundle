@@ -10,11 +10,21 @@ class ShareExtension extends AbstractExtension
     public function getFunctions(): array
     {
         return [
-            new TwigFunction("facebook_share", [$this, "facebookShare"], ['is_safe' => ['html']]),
-            new TwigFunction("twitter_share", [$this, "twitterShare"], ['is_safe' => ['html']]),
-            new TwigFunction("linkedin_share", [$this, "linkedinShare"], ['is_safe' => ['html']]),
-            new TwigFunction("whatsapp_share", [$this, "whatsappShare"], ['is_safe' => ['html']]),
-            new TwigFunction("pinterest_share", [$this, "pinterestShare"], ['is_safe' => ['html']])
+            new TwigFunction("facebook_share", [$this, "facebookShare"], [
+                'is_safe' => ['html'],
+            ]),
+            new TwigFunction("twitter_share", [$this, "twitterShare"], [
+                'is_safe' => ['html'],
+            ]),
+            new TwigFunction("linkedin_share", [$this, "linkedinShare"], [
+                'is_safe' => ['html'],
+            ]),
+            new TwigFunction("whatsapp_share", [$this, "whatsappShare"], [
+                'is_safe' => ['html'],
+            ]),
+            new TwigFunction("pinterest_share", [$this, "pinterestShare"], [
+                'is_safe' => ['html'],
+            ]),
         ];
     }
 

@@ -19,11 +19,11 @@ class SettingsExtension extends AbstractExtension
     public function getFunctions()
     {
         return [
-            new TwigFunction("social_settings", [$this, "socialSettings"])
+            new TwigFunction("social_settings", [$this, "socialSettings"]),
         ];
     }
 
-    public function socialSettings()
+    public function socialSettings(): Setting
     {
         return $this->entityManager->getRepository(Setting::class)->findOneBy([]);
     }
