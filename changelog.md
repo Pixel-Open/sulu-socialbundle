@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.6.1 (22/05/2024)
+
+- Fix composer autoload
+
 ## 2.6.0 (22/05/2024)
 
 + Compatible Symfony 7 et Sulu 2.6
