@@ -1,27 +1,32 @@
 # Changelog
 
+## 2.6.2 (09/11/2024)
+
++ Move depot on Pixel Open
+- Remove composer.lock
+
 ## 2.6.1 (22/05/2024)
 
 - Fix composer autoload
 
 ## 2.6.0 (22/05/2024)
 
-+ Compatible Symfony 7 et Sulu 2.6
++ Symfony 6 and Sulu 2.6 compatible
 
 ## 2.4.0 (07/12/2022)
 
-+ Ajout de github
-- Retrait des svgs
++ Add github
+- Remove svgs
 
 ## 1.0.2 (20/06/2022)
 
-+ Ajout de tripadvisor
++ Add tripadvisor
 
 ## 1.0.1 (25/05/2022)
 
-+ Ajout d'une fonction twig pour afficher les icones des réseaux sociaux
-+ Ajout du readme
++ Add a twig function to display social network icons
++ Add readme
 
 ## 1.0.0 (23/05/2022)
 
-+ Lancement du bundle
++ Bundle launch

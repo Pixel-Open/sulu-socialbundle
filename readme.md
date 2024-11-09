@@ -1,6 +1,6 @@
 # Sulu social bundle
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Developpement/sulu-socialbundle?style=for-the-badge)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Open/sulu-socialbundle?style=for-the-badge)
 [![Dependency](https://img.shields.io/badge/sulu-2.5-cca000.svg?style=for-the-badge)](https://sulu.io/)
 
 ## Presentation
@@ -9,7 +9,6 @@ A Sulu bundle to easily manage the social medias.
 ## Requirements
 
 * PHP >= 8.0
-* Sulu >= 2.4.*
 * Symfony >= 5.4
 * Composer
 

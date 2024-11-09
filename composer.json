@@ -1,16 +1,16 @@
 {
-  "name": "pixeldev/sulu-socialbundle",
+  "name": "pixelopen/sulu-socialbundle",
   "type": "sulu-bundle",
   "description": "Social tools for Sulu",
   "keywords": [
     "sulu",
-    "suluCms"
+    "sulu-bundle"
   ],
-  "homepage": "https://github.com/Pixel-Developpement/sulu-socialbundle",
+  "homepage": "https://github.com/Pixel-Open/sulu-socialbundle",
   "license": "MIT",
   "authors": [
     {
-      "name": "Pixel Developpement"
+      "name": "Pixel Open"
     }
   ],
   "require": {
