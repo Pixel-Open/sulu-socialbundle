@@ -20,7 +20,7 @@ Execute the following [composer](https://getcomposer.org/) command to add the bu
 project:
 
 ```bash
-composer require pixeldev/sulu-socialbundle --with-all-dependencies
+composer require pixelopen/sulu-socialbundle --with-all-dependencies
 ```
 
 ### Enable the bundle
